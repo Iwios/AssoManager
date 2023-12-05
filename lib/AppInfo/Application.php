@@ -1,16 +1,23 @@
 <?php
-declare(strict_types=1);
-// SPDX-FileCopyrightText: Kevin DIDIER <contact@iwios.fr>
-// SPDX-License-Identifier: AGPL-3.0-or-later
-
-namespace OCA\AssoManager\AppInfo;
+namespace OCA\NoteBook\AppInfo;
 
 use OCP\AppFramework\App;
+use OCP\AppFramework\Bootstrap\IRegistrationContext;
+use OCP\AppFramework\Bootstrap\IBootContext;
+use OCP\AppFramework\Bootstrap\IBootstrap;
 
-class Application extends App {
-	public const APP_ID = 'assomanager';
+class Application extends App implements IBootstrap {
 
-	public function __construct() {
-		parent::__construct(self::APP_ID);
+	public const APP_ID = 'notebook';
+//	public const NOTE_FOLDER_NAME = 'TutorialNotes';
+
+	public function __construct(array $urlParams = []) {
+		parent::__construct(self::APP_ID, $urlParams);
+	}
+
+	public function register(IRegistrationContext $context): void {
+	}
+
+	public function boot(IBootContext $context): void {
 	}
 }

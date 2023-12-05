@@ -1,6 +1,5 @@
 <?php
-declare(strict_types=1);
-// SPDX-FileCopyrightText: Kevin DIDIER <contact@iwios.fr>
-// SPDX-License-Identifier: AGPL-3.0-or-later
+$appId = OCA\NoteBook\AppInfo\Application::APP_ID;
+\OCP\Util::addScript($appId, $appId . '-main');
 ?>
 <div id="content"></div>
