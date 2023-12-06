@@ -12,7 +12,7 @@
     <version>0.0.1</version>
     <licence>agpl</licence>
     <author mail="contact@iwios.fr" >Kevin DIDIER</author>
-    <namespace>assomanager</namespace>
+    <namespace>AssoManager</namespace>
     <category>tools</category>
     <bugs>https://github.com/Iwios/AssoManager</bugs>
     <dependencies>
