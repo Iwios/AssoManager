@@ -1,7 +1,7 @@
 <?php
 
 
-namespace OCA\Workspace\Controller;
+namespace OCA\AssoManager\Controller;
 
 use OCP\AppFramework\Controller;
 use OCP\AppFramework\Http\TemplateResponse;
