@@ -1,5 +1,5 @@
 <?php
-namespace OCA\AssoManager\AppInfo;
+namespace OCA\Aassomanager\AppInfo;
 
 use OCP\AppFramework\App;
 use OCP\AppFramework\Bootstrap\IRegistrationContext;

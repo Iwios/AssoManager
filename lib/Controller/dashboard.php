@@ -1,6 +1,6 @@
 <?php
 
-namespace OCA\AssoManager\Controller;
+namespace OCA\assomanager\Controller;
 
 use OCP\AppFramework\Controller;
 
