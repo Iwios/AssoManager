@@ -3,6 +3,7 @@
 namespace OCA\AssoManager\Controller;
 
 use OCP\AppFramework\Controller;
+use OCP\AppFramework\Http\TemplateResponse;
 
 class PageController extends Controller
 {
@@ -12,6 +13,12 @@ class PageController extends Controller
      */
     public function index()
     {
-        return $this->render('index', []);
+        $params = ['message' => 'Gestion des licenciés'];
+
+        // Charge la vue depuis le répertoire 'templates' de ton application
+        $template = new TemplateResponse('assomanager', 'index', $params, 'blank');
+
+        // Renvoie la réponse
+        return $template;
     }
 }
