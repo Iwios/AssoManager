@@ -1,7 +1,7 @@
 <?php
 
-use OCA\AssoManager\AppInfo\Application;
-use OCA\AssoManager\Controller\PageController;
+use OCA\assomanager\AppInfo\Application;
+use OCA\assomanager\Controller\PageController;
 
 /** @var Application $app */
 $app = $this->app;
