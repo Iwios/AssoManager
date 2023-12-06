@@ -6,9 +6,6 @@ use OCP\AppFramework\App;
 
 $app = new App('assomanager');
 
-// Enregistrez le script de navigation.js
-$app->registerScript('assomanager', 'js/navigation');
-
 // Ajoute une entrée de menu dans la barre latérale
 $menu = $app->getContainer()->getServer()->getNavigationManager()->get();
 $menu->add(
