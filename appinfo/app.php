@@ -4,7 +4,6 @@ namespace OCA\assomanager\AppInfo;
 
 use OCP\AppFramework\App;
 
-// Créez une instance de votre application
 $app = new App('assomanager');
 
 // Enregistrez le script de navigation.js
