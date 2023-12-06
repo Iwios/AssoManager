@@ -1,7 +1,7 @@
 <?php
 // templates/navigation/app.navigation.php
 
-script('AssoManager', 'navigation');
+script('assomanager', 'navigation');
 ?>
 
 <div id="navigation" class="icon-loading-dark">

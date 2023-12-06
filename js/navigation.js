@@ -1,7 +1,7 @@
 // js/navigation.js
 
 (function ($, OC) {
-    OC.Plugins.register('OCA.MyApp.Navigation', {
+    OC.Plugins.register('OCA.assomanager.Navigation', {
         attach: function (header) {
             var navigation = header.find('#navigation');
 
