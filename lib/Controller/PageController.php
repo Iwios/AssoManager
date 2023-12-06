@@ -12,7 +12,6 @@ class PageController extends Controller
      */
     public function index()
     {
-        // La logique de ta page va ici
-        // Tu peux renvoyer une vue, des données JSON, etc.
+        return $this->render('index', []);
     }
 }
