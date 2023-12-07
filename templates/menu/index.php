@@ -1,1 +1,1 @@
-<div id="sample">Menu</div>
+<div id="sample"><button>Menu</button></div>
