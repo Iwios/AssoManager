@@ -2,5 +2,13 @@
     display:flex;
     justify-content: center;
     padding-left: 30px;
-    
+
+}
+
+.menuderoulant .sousmenu {
+    display: none;
+}
+
+li:hover .sousmenu {
+    display: block;
 }
