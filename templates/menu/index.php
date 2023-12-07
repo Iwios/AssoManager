@@ -1,1 +1,1 @@
-<div id="sample"><button>Menu</button></div>
+<div id="sample"><button style=display:flex;justify-content:center;border:none;>Menu</button></div>
