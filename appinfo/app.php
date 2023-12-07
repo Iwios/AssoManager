@@ -3,10 +3,9 @@
 \OC::$server->getNavigationManager()->add(function () {
     $urlGenerator = \OC::$server->getURLGenerator();
     return [
-        'id' => 'sample_index',
+        'id' => 'assomanager_index',
         'order' => 10,
-        'href' => $urlGenerator->linkToRoute('sample.page.index'),
-        'icon' => $urlGenerator->imagePath('sample', 'sample.svg'),
-        'name' => 'Sample',
+        'href' => $urlGenerator->linkToRoute('assomanager.page.index'),
+        'name' => 'AssoManager',
     ];
 });

@@ -1,6 +1,6 @@
 <?php
 
-namespace OCA\Sample\Controller;
+namespace OCA\AssoManager\Controller;
 
 use OCP\IRequest;
 use OCP\AppFramework\Http\TemplateResponse;
@@ -16,7 +16,7 @@ class PageController extends Controller {
      * @NoCSRFRequired
      */
     public function index() {
-		$oTemplate = new TemplateResponse('sample', 'index');
+		$oTemplate = new TemplateResponse('assomanager', 'index');
 		return $oTemplate;
     }
 }
