@@ -1,5 +1,5 @@
-<div id="sample"style="display:flex;justify-content:center;"></span><button style="background:none;width:width:220px;border:none;display:flex;flex-direction:row;align-items:center;"><div class="icon-category-dashboard"></div>Tableau de bord</button></div>
-<div id="sample"style="display:flex;justify-content:center;"></span><button style="background:none;width:width:220px;border:none;display:flex;flex-direction:row;align-items:center;"><div class="icon-category-dashboard"></div>Gestion des groupes</button></div>
+<div id="sample"style="display:flex;justify-content:center;"></span><button style="background:none;width:220px;border:none;display:flex;flex-direction:row;align-items:center;"><div class="icon-category-dashboard"></div>Tableau de bord</button></div>
+<div id="sample"style="display:flex;justify-content:center;"></span><button style="background:none;width:220px;border:none;display:flex;flex-direction:row;align-items:center;"><div class="icon-category-dashboard"></div>Gestion des groupes</button></div>
 <div id="sample"style="display:flex;justify-content:center;"></span><button style="background:none;width:220px;border:none;display:flex;flex-direction:row;align-items:center;"><div class="icon-category-dashboard"></div>Gestion des licenciés</button></div>
 <div id="sample"style="display:flex;justify-content:center;"></span><button style="background:none;width:220px;border:none;display:flex;flex-direction:row;align-items:center;"><div class="icon-category-dashboard"></div>Gestion des inscription</button></div>
 
