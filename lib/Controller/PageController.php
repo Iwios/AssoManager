@@ -1,30 +1,22 @@
 <?php
 
-namespace OCA\AssoManager\Controller;
+namespace OCA\Sample\Controller;
 
-use OCP\AppFramework\Controller;
+use OCP\IRequest;
 use OCP\AppFramework\Http\TemplateResponse;
+use OCP\AppFramework\Controller;
 
-class PageController extends Controller
-{
-    /**
+class PageController extends Controller {
+	public function __construct($appName, IRequest $request) {
+	parent::__construct($appName, $request);
+    }
+
+/**
      * @NoAdminRequired
      * @NoCSRFRequired
      */
-    public function index()
-    {
-        $params = ['message' => 'Gestion des licenciés'];
-
-        // Charge la vue depuis le répertoire 'templates' de ton application
-        $template = new TemplateResponse('assomanager', 'index', $params, 'blank');
-
-        // Récupère le contenu de la vue
-        $content = $template->render();
-
-        // Défini le contenu de la réponse
-        $this->response->setContent($content);
-
-        // Renvoie la réponse
-        return $this->response;
+    public function index() {
+		$oTemplate = new TemplateResponse('sample', 'index');
+		return $oTemplate;
     }
 }
