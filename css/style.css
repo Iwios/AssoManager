@@ -1,3 +1,6 @@
 .sousmenu {
-    :;
+    display:flex;
+    justify-content: center;
+    padding-left: 30px;
+    
 }
