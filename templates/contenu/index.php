@@ -4,11 +4,11 @@
         <div style="display:flex;justify-content:flex-end;">
             <div style="display:flex;justify-content:space-evenly;">
                 <button>Ajouter</button>
-                <div>
+                
                     <label for="site-search">Licenciés :</label>
                     <input type="search" id="site-search" name="q" />
                     <button>Recherche</button>
-                </div>
+                
             </div>     
         </div>
         <div style="display:flex;justify-content:center;">
