@@ -20,9 +20,9 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td>Justin</td>
-                        <td>Didier</td>
-                        <td>1</td>
+                        <td colspan="1">Justin</td>
+                        <td colspan="1">Didier</td>
+                        <td colspan="1">1</td>
                     </tr>
                 </tbody>
             </table>
