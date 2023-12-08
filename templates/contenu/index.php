@@ -12,7 +12,7 @@
         </div>
         <div>
         <table style="margin: 0px 10px 0px 10px;border:black solid 2px;">
-            <thead style="border:black solid 2px;display:flex;justify-content:space-between;">
+            <thead style="display:flex;justify-content:space-between;border:black solid 2px;">
                 <tr>
                     <th colspan="1" style="border:black solid 2px;">Nom</th>
                     <th colspan="1" style="border:black solid 2px;">Prénom</th>
