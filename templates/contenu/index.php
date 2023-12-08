@@ -11,15 +11,15 @@
             </div>
         </div>
         <div>
-        <table style="margin: 0px 10px 0px 10px;border:black solid 2px;display:flex;justify-content:space-between;">
-            <thead style="border:black solid 2px;">
+        <table style="margin: 0px 10px 0px 10px;border:black solid 2px;">
+            <thead style="border:black solid 2px;display:flex;justify-content:space-between;">
                 <tr>
                     <th colspan="1" style="border:black solid 2px;">Nom</th>
                     <th colspan="1" style="border:black solid 2px;">Prénom</th>
                     <th colspan="1" style="border:black solid 2px;">Groupe</th>
                 </tr>
             </thead>
-            <tbody>
+            <tbody style="flex;justify-content:space-between;">
                 <tr>
                     <td style=>Justin</td>
                     <td style=>Didier</td>
