@@ -1,4 +1,3 @@
-<div style="display:flex;flex-direction:column;margin:0;">
     <div>
         <div id="sample">Sample app text here</div>
 
@@ -29,4 +28,3 @@
         </table>
         </div>
     </div>
-</div>
