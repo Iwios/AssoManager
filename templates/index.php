@@ -7,7 +7,7 @@
 	<div id="app-navigation">
 		<?php print_unescaped($this->inc('menu/index')); ?>
 	</div>
-	<div id="app-content">
+	<div id="app-content" style="width:100%;">
 		<div id="app-content-wrapper" style="width:100%;">
 			<?php print_unescaped($this->inc('contenu/index')); ?>
 		</div>
