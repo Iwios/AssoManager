@@ -18,6 +18,7 @@
 
 <style scoped lang="scss">
     .sousmenu {
+        border: solid red 4px;
         display:flex;
         justify-content: center;
         padding-left: 30px;
