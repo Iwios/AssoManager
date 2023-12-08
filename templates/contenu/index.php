@@ -30,10 +30,7 @@
     </div>
 
     <style scoped lang="scss">
-        th, td {
-            display: flex;
-            justify-content: center;
-        }
+
         
         th {
             border:black solid 2px;
