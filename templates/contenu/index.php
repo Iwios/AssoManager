@@ -21,8 +21,8 @@
                 <tbody>
                     <tr>
                         <td colspan="1">Justin</td>
-                        <td colspan="1">Didier</td>
-                        <td colspan="1">1</td>
+                        <td colspan="2">Didier</td>
+                        <td colspan="3">1</td>
                     </tr>
                 </tbody>
             </table>
