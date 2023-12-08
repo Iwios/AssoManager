@@ -16,7 +16,7 @@
     <div id="sample" style="display:flex;justify-content:center;"></span><button style="background:none;width:220px;border:none;display:flex;flex-direction:row;align-items:center;"><div class="icon-category-dashboard" style="padding-right:20px;"></div>Gestion des inscription</button></div>
 </ul>
 
-<style>
+<style scoped lang="scss">
     .sousmenu {
         display:flex;
         justify-content: center;
