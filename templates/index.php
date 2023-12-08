@@ -8,7 +8,7 @@
 		<?php print_unescaped($this->inc('menu/index')); ?>
 	</div>
 	<div id="app-content">
-		<div id="app-content-wrapper">
+		<div id="app-content-wrapper" style="width:100%;">
 			<?php print_unescaped($this->inc('contenu/index')); ?>
 		</div>
 	</div>

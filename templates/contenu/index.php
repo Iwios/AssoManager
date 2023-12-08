@@ -21,9 +21,9 @@
             </thead>
             <tbody>
                 <tr>
-                    <td style="border:black solid 1px;">Justin</td>
-                    <td style="border:black solid 1px;">Didier</td>
-                    <td style="border:black solid 1px;">1</td>
+                    <td style=>Justin</td>
+                    <td style=>Didier</td>
+                    <td style=>1</td>
                 </tr>
             </tbody>
         </table>
