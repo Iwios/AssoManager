@@ -11,7 +11,7 @@
             </div>
         </div>
         <div>
-        <table>
+        <table style="margin: 0px 10px 0px 10px;border:black solid 2px;">
             <thead>
                 <tr>
                     <th colspan="1">Nom</th>
@@ -30,5 +30,3 @@
         </div>
     </div>
 </div>
-
-style="display:flex;flex-direction:column;"
