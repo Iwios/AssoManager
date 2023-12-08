@@ -20,9 +20,9 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td colspan="1">Justin</td>
-                        <td colspan="2">Didier</td>
-                        <td colspan="3">1</td>
+                        <td>Justin</td>
+                        <td>Didier</td>
+                        <td>1</td>
                     </tr>
                 </tbody>
             </table>
@@ -30,11 +30,6 @@
     </div>
 
     <style scoped lang="scss">
-        td {
-            display: flex;
-            justify-content: center;
-        }
-
         th {
             border:black solid 2px;
         }
