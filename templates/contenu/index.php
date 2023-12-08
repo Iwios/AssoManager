@@ -10,8 +10,8 @@
             </div>
         </div>
         <div>
-        <table style="margin: 0px 10px 0px 10px;border:black solid 2px;" style="flex;justify-content:space-between;">
-            <thead style="display:flex;border:black solid 2px;">
+        <table style="margin: 0px 10px 0px 10px;border:black solid 2px;flex;justify-content:space-between;">
+            <thead>
                 <tr>
                     <th colspan="1" style="border:black solid 2px;">Nom</th>
                     <th colspan="1" style="border:black solid 2px;">Prénom</th>
