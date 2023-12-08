@@ -12,18 +12,18 @@
         </div>
         <div>
         <table style="margin: 0px 10px 0px 10px;border:black solid 2px;">
-            <thead>
+            <thead style="border:black solid 2px;">
                 <tr>
-                    <th colspan="1">Nom</th>
-                    <th colspan="1">Prénom</th>
-                    <th colspan="1">Groupe</th>
+                    <th colspan="1" style="border:black solid 2px;">Nom</th>
+                    <th colspan="1" style="border:black solid 2px;">Prénom</th>
+                    <th colspan="1" style="border:black solid 2px;">Groupe</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
-                    <td>Justin</td>
-                    <td>Didier</td>
-                    <td>1</td>
+                    <td style="border:black solid 1px;">Justin</td>
+                    <td style="border:black solid 1px;">Didier</td>
+                    <td style="border:black solid 1px;">1</td>
                 </tr>
             </tbody>
         </table>
