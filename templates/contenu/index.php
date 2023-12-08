@@ -10,6 +10,24 @@
                 <button>Recherche</button>
             </div>
         </div>
+        <div>
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="1">Nom</th>
+                    <th colspan="1">Prénom</th>
+                    <th colspan="1">Groupe</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Justin</td>
+                    <td>Didier</td>
+                    <td>1</td>
+                </tr>
+            </tbody>
+        </table>
+        </div>
     </div>
     <div>
         <table>
