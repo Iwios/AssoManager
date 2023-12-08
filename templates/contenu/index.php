@@ -2,7 +2,7 @@
 
 <div>
     <button>Ajouté</button>
-        <div>
+    <div>
             <NcSelect v-model="active" :options="['search-tab', 'settings-tab', 'share-tab']" />
             <NcAppSidebar
                 name="cat-picture.jpg"
@@ -27,8 +27,7 @@
                     Sharing tab content
                 </NcAppSidebarTab>
             </NcAppSidebar>
-        </div>
-    
+        </div>    
     <script>
     import Magnify from 'vue-material-design-icons/Magnify'
     import Cog from 'vue-material-design-icons/Cog'
