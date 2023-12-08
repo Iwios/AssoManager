@@ -10,7 +10,7 @@
             </div>
         </div>
         <div style="display:flex;justify-content:center;">
-            <table style="margin: 0px 10px 0px 10px;border:black solid 2px;flex;justify-content:space-between;">
+            <table style="width:100%;margin: 0px 10px 0px 10px;border:black solid 2px;flex;justify-content:space-between;">
                 <thead>
                     <tr>
                         <th colspan="1" style="border:black solid 2px;">Nom</th>
