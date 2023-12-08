@@ -20,7 +20,7 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td ALIGN="center">Justin</td>
+                        <td>Justin</td>
                         <td>Didier</td>
                         <td>1</td>
                     </tr>
@@ -30,8 +30,6 @@
     </div>
 
     <style scoped lang="scss">
-
-        
         th {
             border:black solid 2px;
         }
