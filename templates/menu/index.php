@@ -1,7 +1,3 @@
-<head>
-    <link rel="stylesheet" href="/css/style.css" />
-</head>
-
 <ul class="menuderoulant">
     <div id="sample"></span><button href="../index.php" style="background:none;width:220px;border:none;display:flex;flex-direction:row;align-items:center;"><div class="icon-category-dashboard" style="padding-right:20px;"></div>Tableau de bord</button></div>
     <div id="sample"></span><button style="background:none;width:220px;border:none;display:flex;flex-direction:row;align-items:center;"><div class="icon-category-dashboard" style="padding-right:20px;"></div>Gestion des groupes</button></div>
@@ -38,14 +34,6 @@
         display:flex;
         justify-content: center;
         padding-left: 30px;
-    }
-
-    .sousmenu {
-        border: solid red 4px;
-        display:flex;
-        justify-content: center;
-        padding-left: 30px;
-
     }
 
     .menuderoulant .sousmenu {
