@@ -20,15 +20,13 @@ class PageController extends Controller {
 		return $oTemplate;
     }
 
-
     public function liste_groupe() {
     $oTemplate = new TemplateResponse('assomanager', 'liste_groupe');
     return $oTemplate;
-  }
+    }
 
     public function planning_groupe() {
     $oTemplate = new TemplateResponse('assomanager', 'planning_groupe');
     return $oTemplate;
-
-
+    }
 }

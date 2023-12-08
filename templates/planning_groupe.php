@@ -1,6 +1,6 @@
 <?php
-	style('assomanager', array('style'));
-	script('assomanager', array('client.app', '506.app', '814.app', '856.app'));
+	style('gestion', array('style'));
+	script('gestion', array('client.app', '506.app', '814.app', '856.app'));
 ?>
 
 <div id="app">
