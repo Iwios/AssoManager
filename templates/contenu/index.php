@@ -11,7 +11,7 @@
             </div>
         </div>
         <div>
-        <table style="margin: 0px 10px 0px 10px;border:black solid 2px;">
+        <table style="margin: 0px 10px 0px 10px;border:black solid 2px;display:flex;justify-content:space-between;">
             <thead style="border:black solid 2px;">
                 <tr>
                     <th colspan="1" style="border:black solid 2px;">Nom</th>
