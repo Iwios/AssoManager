@@ -1,4 +1,4 @@
-<div>
+
     <div id="sample">Sample app text here</div>
 
     <div style="display:flex;justify-content:end;">
@@ -27,4 +27,4 @@
         </tbody>
     </table>
     </div>
-</div>
+
