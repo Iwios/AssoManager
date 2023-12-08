@@ -10,7 +10,7 @@
             <li style="width:150px;"><a href="../planning_groupe.php">Planning des groupes</a></li>
         </ul>
     <div id="sample"></span><button style="background:none;width:220px;border:none;display:flex;flex-direction:row;align-items:center;"><div class="icon-category-dashboard" style="padding-right:20px;"></div>Gestion des licenciés</button></div>
-        <ul style="display:flex;justify-content:center;" class="sousmenu2">
+        <ul class="sousmenu2">
             <li style="width:150px;"><a href="#">Liste des licenciés</a></li>
         </ul>
     <div id="sample"></span><button style="background:none;width:220px;border:none;display:flex;flex-direction:row;align-items:center;"><div class="icon-category-dashboard" style="padding-right:20px;"></div>Gestion des inscription</button></div>
@@ -22,8 +22,18 @@
         justify-content:center;
     }
 
+    #sample {
+        background:none;
+        width:220px;
+        border:none;
+        display:flex;
+        flex-direction:row;
+        align-items:center;
+    }
+
     .sousmenu1 {
-        flex-direction:column;align-items:center;
+        flex-direction:column;
+        align-items:center;
     }
 
     .sousmenu {
