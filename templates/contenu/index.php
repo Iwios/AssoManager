@@ -13,18 +13,29 @@
             <table style="width:100%;margin: 20px 10px 0px 10px;border:black solid 2px;flex;justify-content:space-between;">
                 <thead>
                     <tr>
-                        <th colspan="1" style="border:black solid 2px;">Nom</th>
-                        <th colspan="1" style="border:black solid 2px;">Prénom</th>
-                        <th colspan="1" style="border:black solid 2px;">Groupe</th>
+                        <th colspan="1">Nom</th>
+                        <th colspan="1">Prénom</th>
+                        <th colspan="1">Groupe</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <td style=>Justin</td>
-                        <td style=>Didier</td>
-                        <td style=>1</td>
+                        <td>Justin</td>
+                        <td>Didier</td>
+                        <td>1</td>
                     </tr>
                 </tbody>
             </table>
         </div>
     </div>
+
+    <style scoped lang="scss">
+        td {
+            display: flex;
+            justify-content: center;
+        }
+
+        th {
+            border:black solid 2px;
+        }
+    </style>
