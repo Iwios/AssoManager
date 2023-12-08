@@ -34,6 +34,10 @@
     .sousmenu1 {
         flex-direction:column;
         align-items:center;
+        border: solid red 4px;
+        display:flex;
+        justify-content: center;
+        padding-left: 30px;
     }
 
     .sousmenu {
