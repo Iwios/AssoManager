@@ -4,7 +4,7 @@
     <div id="container">
         <button>Ajouter</button>
         <div class="recherche">
-            <label for="site-search">Licenciés :</label>
+            <label for="recherche">Licenciés :</label>
             <input type="search" id="recherche" name="q" />
             <button>Recherche</button>
         </div>
