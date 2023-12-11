@@ -5,7 +5,7 @@
         <button>Ajouter</button>
         <div class="recherche">
             <label for="recherche">Licenciés :</label>
-            <input type="search" id="recherche" name="q" />
+            <form><input type="search" id="recherche" name="q" /></form>
             <button>Recherche</button>
         </div>
     </div>
