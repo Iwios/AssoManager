@@ -32,6 +32,10 @@
 
 <style scoped lang="scss">
 
+    body {
+        font-family: Arial, sans-serif;
+    }
+
     #sample {
         margin: 10px 0;
     }
@@ -40,10 +44,13 @@
         display: flex;
         justify-content: flex-end;
         margin-bottom: 20px;
+        align-items: center;
     }
 
     button {
         margin-left: 10px;
+        width: 110px;
+        height: 36px;
     }
 
     .recherche {
