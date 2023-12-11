@@ -2,7 +2,7 @@
     <li>
         <input type="checkbox" id="dashboard">
         <label for="dashboard">
-            <div class="icon-category-dashboard"></div>Tableau de bord
+            <div class="icon-category-dashboard"></div><a href="../templates/index.php">Tableau de bord</a>
         </label>
     </li>
     <li>
@@ -11,8 +11,8 @@
             <div class="icon-category-dashboard"></div>Gestion des groupes
         </label>
         <ul class="sousmenu">
-            <li><a href="<?php echo($_['url']['liste_groupe']); ?>">Liste des groupes</a></li>
-            <li><a href="../planning_groupe.php">Planning des groupes</a></li>
+            <li><a href="../templates/liste_groupe.php">Liste des groupes</a></li>
+            <li><a href="../templates/planning_groupe.php">Planning des groupes</a></li>
         </ul>
     </li>
     <li>
@@ -27,7 +27,7 @@
     <li>
         <input type="checkbox" id="inscriptions">
         <label for="inscriptions">
-            <div class="icon-category-dashboard"></div>Gestion des inscriptions
+            <div class="icon-category-dashboard"></div><a href="../templates/contenu/index.php">Gestion des inscriptions</a>
         </label>
     </li>
 </ul>
