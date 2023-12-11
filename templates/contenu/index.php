@@ -3,7 +3,7 @@
 
         <div style="display:flex;justify-content:flex-end;">
                 <button>Ajouter</button>
-                <div>
+                <div class="recherche">
                     <label for="site-search">Licenciés :</label>
                     <input type="search" id="site-search" name="q" />
                     <button>Recherche</button>
@@ -33,5 +33,9 @@
         th, tr, table, td {
             border: black solid 2px;
             border-collapse: collapse;
+        }
+
+        .recherche {
+            display: flex;
         }
     </style>
