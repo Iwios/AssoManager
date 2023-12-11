@@ -56,6 +56,7 @@
     .recherche {
         display: flex;
         margin-top: 10px;
+        align-items: center;
     }
 
     label {
