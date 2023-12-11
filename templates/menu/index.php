@@ -62,13 +62,14 @@
     }
 
     .sousmenu {
+        display: none;
         flex-direction: column;
         align-items: center;
         padding-left: 30px;
     }
 
-    input:checked + label + .sousmenu {
+    input:checked + label + .sousmenu,
+    input:hover + label + .sousmenu {
         display: block;
     }
 </style>
-
