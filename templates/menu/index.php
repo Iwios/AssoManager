@@ -1,22 +1,34 @@
 <ul class="menuderoulant">
     <li>
-        <button><div class="icon-category-dashboard"></div>Tableau de bord</button>
+        <input type="checkbox" id="dashboard">
+        <label for="dashboard">
+            <div class="icon-category-dashboard"></div>Tableau de bord
+        </label>
     </li>
     <li>
-        <button><div class="icon-category-dashboard"></div>Gestion des groupes</button>
+        <input type="checkbox" id="groupes">
+        <label for="groupes">
+            <div class="icon-category-dashboard"></div>Gestion des groupes
+        </label>
         <ul class="sousmenu">
             <li><a href="<?php echo($_['url']['liste_groupe']); ?>">Liste des groupes</a></li>
             <li><a href="../planning_groupe.php">Planning des groupes</a></li>
         </ul>
     </li>
     <li>
-        <button><div class="icon-category-dashboard"></div>Gestion des licenciés</button>
+        <input type="checkbox" id="licencies">
+        <label for="licencies">
+            <div class="icon-category-dashboard"></div>Gestion des licenciés
+        </label>
         <ul class="sousmenu">
             <li><a href="#">Liste des licenciés</a></li>
         </ul>
     </li>
     <li>
-        <button><div class="icon-category-dashboard"></div>Gestion des inscriptions</button>
+        <input type="checkbox" id="inscriptions">
+        <label for="inscriptions">
+            <div class="icon-category-dashboard"></div>Gestion des inscriptions
+        </label>
     </li>
 </ul>
 
@@ -27,12 +39,14 @@
     }
 
     li {
-        display: flex;
-        align-items: center;
         margin-bottom: 5px;
     }
 
-    button {
+    input {
+        display: none;
+    }
+
+    label {
         background: none;
         border: none;
         width: 220px;
@@ -40,6 +54,7 @@
         flex-direction: row;
         align-items: center;
         padding: 5px;
+        cursor: pointer;
     }
 
     .icon-category-dashboard {
@@ -47,14 +62,13 @@
     }
 
     .sousmenu {
-        display: none;
         flex-direction: column;
         align-items: center;
-        border: solid red 4px;
         padding-left: 30px;
     }
 
-    li:hover .sousmenu {
+    input:checked + label + .sousmenu {
         display: block;
     }
 </style>
+
