@@ -30,7 +30,7 @@
     </div>
 
     <style scoped lang="scss">
-        th, tr, table {
+        th, tr, table, td {
             border: black solid 2px;
             border-collapse: collapse;
         }
