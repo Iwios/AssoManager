@@ -1,9 +1,8 @@
-<!-- index.php dans le dossier menu -->
 <ul class="menuderoulant">
     <li>
         <input type="checkbox" id="dashboard">
         <label for="dashboard">
-            <div class="icon-category-dashboard"></div><a href="../../templates/index.php">Tableau de bord</a>
+            <div class="icon-category-dashboard"></div><a href="../templates/index.php">Tableau de bord</a>
         </label>
     </li>
     <li>
@@ -12,8 +11,8 @@
             <div class="icon-category-dashboard"></div>Gestion des groupes
         </label>
         <ul class="sousmenu">
-            <li><a href="../../templates/liste_groupe.php">Liste des groupes</a></li>
-            <li><a href="../../templates/planning_groupe.php">Planning des groupes</a></li>
+            <li><a href="../templates/liste_groupe.php">Liste des groupes</a></li>
+            <li><a href="../templates/planning_groupe.php">Planning des groupes</a></li>
         </ul>
     </li>
     <li>
@@ -28,7 +27,7 @@
     <li>
         <input type="checkbox" id="inscriptions">
         <label for="inscriptions">
-            <div class="icon-category-dashboard"></div><a href="../../templates/contenu/index.php">Gestion des inscriptions</a>
+            <div class="icon-category-dashboard"></div><a href="../templates/contenu/index.php">Gestion des inscriptions</a>
         </label>
     </li>
 </ul>
