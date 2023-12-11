@@ -21,7 +21,7 @@ class PageController extends Controller {
     }
 
     public function liste_groupe() {
-    $oTemplate = new TemplateResponse('assomanager', 'liste_groupe');
+    $oTemplate = new TemplateResponse('assomanager', 'index');
     return $oTemplate;
     }
 
