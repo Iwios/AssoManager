@@ -5,7 +5,7 @@
         <button>Ajouter</button>
         <div class="recherche">
             <label for="site-search">Licenciés :</label>
-            <input type="search" id="site-search" name="q" />
+            <input type="search" id="recherche" name="q" />
             <button>Recherche</button>
         </div>
     </div>
@@ -74,6 +74,9 @@
         text-align: center;
     }
 
-
+    #recherche {
+        border: 1px solid black;
+        border-radius: 2px;
+    }
 
 </style>
