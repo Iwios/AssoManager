@@ -42,7 +42,7 @@
         margin-bottom: 5px;
     }
 
-    input {
+    li input {
         display: none;
     }
 
