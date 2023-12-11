@@ -74,9 +74,4 @@
         text-align: center;
     }
 
-    #recherche {
-        border: 1px solid black;
-        border-radius: 2px;
-    }
-
 </style>
