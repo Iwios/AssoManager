@@ -46,7 +46,7 @@
         display: none;
     }
 
-    label {
+    li label {
         background: none;
         border: none;
         width: 220px;
