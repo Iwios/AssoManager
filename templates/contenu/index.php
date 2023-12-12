@@ -1,3 +1,5 @@
+<script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+
 <div>
     <div id="sample">Sample app text here</div>
 
@@ -37,7 +39,7 @@
         const vm = Vue.createApp({
             data(){
                 return{
-                    message: 'Hello World!'
+                    message: 'Hello World !'
                 }
             }
         }).mount('#app');
