@@ -28,6 +28,21 @@
             </tbody>
         </table>
     </div>
+
+    <div id="app">
+        {{ message }}
+    </div>
+
+    <script>
+        const vm = Vue.createApp({
+            data(){
+                return{
+                    message: 'Hello World!'
+                }
+            }
+        }).mount('#app');
+    </script>
+
 </div>
 
 <style scoped lang="scss">
