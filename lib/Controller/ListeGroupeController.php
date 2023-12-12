@@ -1,5 +1,5 @@
 <?php
-namespace OCA\MyCustomApp\Controller;
+namespace OCA\AssoManager\Controller;
 
 use OCP\AppFramework\Controller;
 
